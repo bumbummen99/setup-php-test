@@ -8,7 +8,7 @@ on:
 
 jobs:
   PHP:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
     env:
       PHP_VERSION: ${{ matrix.php }}
     steps:
@@ -17,4 +17,4 @@ jobs:
         with:
           php-version: 8.2
         env:
-          runner: ubuntu-22.04
+          runner: ubuntu-20.04
