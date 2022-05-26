@@ -10,7 +10,7 @@ jobs:
   PHP:
     runs-on: ubuntu-20.04
     env:
-      PHP_VERSION: ${{ matrix.php }}
+      PHP_VERSION: 8.2
     steps:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
